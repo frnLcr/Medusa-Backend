@@ -1524,66 +1524,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cloudinary-util/types@npm:1.5.10":
-  version: 1.5.10
-  resolution: "@cloudinary-util/types@npm:1.5.10"
-  checksum: 0e033dfe1c337141fe6614fda780602bd3ec48c7a4dedccf617380ae6402430c92441b275712c0733d3e34cad47bd1cf41951703b8cdafb19d1babcbc1ec5027
-  languageName: node
-  linkType: hard
-
-"@cloudinary-util/url-loader@npm:5.10.4":
-  version: 5.10.4
-  resolution: "@cloudinary-util/url-loader@npm:5.10.4"
-  dependencies:
-    "@cloudinary-util/types": 1.5.10
-    "@cloudinary-util/util": 3.3.2
-    "@cloudinary/url-gen": 1.15.0
-    zod: ^3.22.4
-  checksum: 44e7b807159ecd4795475599516a87a1ab44f04313d99d8fbcaf84d84be6c8c0d982049ac02bc4d8cbc6abda67bdd462ec496edec5f6d679102e33720a17941b
-  languageName: node
-  linkType: hard
-
-"@cloudinary-util/util@npm:3.3.2":
-  version: 3.3.2
-  resolution: "@cloudinary-util/util@npm:3.3.2"
-  checksum: fb4fa4c14c56eb88750d834d1f497479fc34cdbdeb4fa2d601f9e03497e51b1bddad43b3616e32bae6690cccdaaa664211226368f62c3e1bf23c5e05d1b91b0f
-  languageName: node
-  linkType: hard
-
-"@cloudinary-util/util@npm:4.0.0":
-  version: 4.0.0
-  resolution: "@cloudinary-util/util@npm:4.0.0"
-  checksum: 0ac65c2ec59c5369a31102d4f2927e13f958afa0561084e97a70707797afb7523ce76e92de39aeb345c25bf44de42cc10772636985e2f7d18afa3ac3ea6f5887
-  languageName: node
-  linkType: hard
-
-"@cloudinary/transformation-builder-sdk@npm:^1.10.0, @cloudinary/transformation-builder-sdk@npm:^1.15.1":
-  version: 1.16.1
-  resolution: "@cloudinary/transformation-builder-sdk@npm:1.16.1"
-  dependencies:
-    "@cloudinary/url-gen": ^1.7.0
-  checksum: 2c96917f82a493fdc7f61edc95cfdda0bb70fa5af93abc558e3d525e10fe9b7fb2dce391c2667ec785acac16458dc2c47ceab348ed614d1122df52c5b6a558b1
-  languageName: node
-  linkType: hard
-
-"@cloudinary/url-gen@npm:1.15.0":
-  version: 1.15.0
-  resolution: "@cloudinary/url-gen@npm:1.15.0"
-  dependencies:
-    "@cloudinary/transformation-builder-sdk": ^1.10.0
-  checksum: 774c4cf9978c31dd783576897f9ee309d30572c48e94e3366cc79ec69e1e6e7300cd373e360f18d5d16950cd521ee8905810ac9edc5b6748b2e5b8b8cfb40261
-  languageName: node
-  linkType: hard
-
-"@cloudinary/url-gen@npm:^1.7.0":
-  version: 1.21.0
-  resolution: "@cloudinary/url-gen@npm:1.21.0"
-  dependencies:
-    "@cloudinary/transformation-builder-sdk": ^1.15.1
-  checksum: ff2106b3e47d7a12c1a56ddc1771565847184dd8825ffe106f9b67caec7a3c3238a08cc8b8b1ffa4169b28238f8c096414105fdc81fb6e84d7abb870e7a4fc71
-  languageName: node
-  linkType: hard
-
 "@colors/colors@npm:1.6.0, @colors/colors@npm:^1.6.0":
   version: 1.6.0
   resolution: "@colors/colors@npm:1.6.0"
@@ -8102,7 +8042,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"awilix@npm:^8.0.0, awilix@npm:^8.0.1":
+"awilix@npm:^8.0.1":
   version: 8.0.1
   resolution: "awilix@npm:8.0.1"
   dependencies:
@@ -8827,37 +8767,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cloudinary-core@npm:^2.13.0":
-  version: 2.13.1
-  resolution: "cloudinary-core@npm:2.13.1"
-  peerDependencies:
-    lodash: ">=4.0"
-  checksum: 4f7104835f857515ab6c2c160362f67990d8960420d306b09458f395ee5457af8c54e899608b90ab33abc118263679ee1985757f2a62dde791979679897f8e1d
-  languageName: node
-  linkType: hard
-
-"cloudinary@npm:^1.27.1":
-  version: 1.41.3
-  resolution: "cloudinary@npm:1.41.3"
-  dependencies:
-    cloudinary-core: ^2.13.0
-    core-js: ^3.30.1
-    lodash: ^4.17.21
-    q: ^1.5.1
-  checksum: a1fb034ac0ce70855abd83b2dd228f9a81a940eff32204b2260f212d8fdc5dd83afb777179383fe45ac2f7efcb8c9fab188ba5be8e6512fd719aeb8d381f86f5
-  languageName: node
-  linkType: hard
-
-"cloudinary@npm:^2.5.1":
-  version: 2.5.1
-  resolution: "cloudinary@npm:2.5.1"
-  dependencies:
-    lodash: ^4.17.21
-    q: ^1.5.1
-  checksum: 4e4a09fe37677fce1051371b8906bf3a28f31017b867701e7c51977b6bcd0185603f0ca2e47052730e5691b5d0d40abd7f7d7774c046784b1ba55b390b687493
-  languageName: node
-  linkType: hard
-
 "clsx@npm:2.0.0":
   version: 2.0.0
   resolution: "clsx@npm:2.0.0"
@@ -9168,13 +9077,6 @@ __metadata:
   dependencies:
     toggle-selection: ^1.0.6
   checksum: e0a325e39b7615108e6c1c8ac110ae7b829cdc4ee3278b1df6a0e4228c490442cc86444cd643e2da344fbc424b3aab8909e2fec82f8bc75e7e5b190b7c24eecf
-  languageName: node
-  linkType: hard
-
-"core-js@npm:^3.30.1":
-  version: 3.40.0
-  resolution: "core-js@npm:3.40.0"
-  checksum: fc962b93470fd4a129555c765b630c1741fc38706bca68779879f0feaef3b6eec11a33904e3111b2b0e8ba206e8cfbc2a70193271227cfa2f2d13a986f78e557
   languageName: node
   linkType: hard
 
@@ -10715,10 +10617,7 @@ __metadata:
     "@types/react": ^18.3.2
     "@types/react-dom": ^18.2.25
     awilix: ^8.0.1
-    cloudinary: ^2.5.1
     jest: ^29.7.0
-    medusa-file-cloudinary: ^1.0.2
-    next-cloudinary: ^6.16.0
     pg: ^8.13.0
     prop-types: ^15.8.1
     react: ^18.2.0
@@ -12135,27 +12034,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"medusa-core-utils@npm:^1.1.30":
-  version: 1.2.3
-  resolution: "medusa-core-utils@npm:1.2.3"
-  dependencies:
-    awilix: ^8.0.0
-  checksum: 9e3232911a4b0e2c3117658ea380d7bee5018cfd722e348104d1b4c29881056b66ccd4249fdd6b2bcfe753f4a871eddc1dfebefb5f99491a66a491ffcd0ba88b
-  languageName: node
-  linkType: hard
-
-"medusa-file-cloudinary@npm:^1.0.2":
-  version: 1.0.2
-  resolution: "medusa-file-cloudinary@npm:1.0.2"
-  dependencies:
-    cloudinary: ^1.27.1
-    medusa-core-utils: ^1.1.30
-  peerDependencies:
-    medusa-interfaces: 1.x
-  checksum: cfb8e945460735552fb4e43116a63dffde5a324a06f643a573e6dc2ad9dce9d631a04e55a064537f16bbef894023f3914f2293cf4d0ffd1aba71d4192ac86fee
-  languageName: node
-  linkType: hard
-
 "merge-descriptors@npm:1.0.3":
   version: 1.0.3
   resolution: "merge-descriptors@npm:1.0.3"
@@ -12566,20 +12444,6 @@ __metadata:
   version: 0.6.4
   resolution: "negotiator@npm:0.6.4"
   checksum: 7ded10aa02a0707d1d12a9973fdb5954f98547ca7beb60e31cb3a403cc6e8f11138db7a3b0128425cf836fc85d145ec4ce983b2bdf83dca436af879c2d683510
-  languageName: node
-  linkType: hard
-
-"next-cloudinary@npm:^6.16.0":
-  version: 6.16.0
-  resolution: "next-cloudinary@npm:6.16.0"
-  dependencies:
-    "@cloudinary-util/types": 1.5.10
-    "@cloudinary-util/url-loader": 5.10.4
-    "@cloudinary-util/util": 4.0.0
-  peerDependencies:
-    next: ^12 || ^13 || ^14 || >=15.0.0-rc || ^15
-    react: ^17 || ^18 || >=19.0.0-beta || ^19
-  checksum: 81dc706aff83997dd48c25b764ac5d01b63852b62edf34a349dcfa023c883310934df51640e8312d03c8fcab12c01090229067da8fd1256a7844c4a6e35ebbd1
   languageName: node
   linkType: hard
 
@@ -13460,13 +13324,6 @@ __metadata:
   version: 6.1.0
   resolution: "pure-rand@npm:6.1.0"
   checksum: 8d53bc02bed99eca0b65b505090152ee7e9bd67dd74f8ff32ba1c883b87234067c5bf68d2614759fb217d82594d7a92919e6df80f97885e7b12b42af4bd3316a
-  languageName: node
-  linkType: hard
-
-"q@npm:^1.5.1":
-  version: 1.5.1
-  resolution: "q@npm:1.5.1"
-  checksum: 147baa93c805bc1200ed698bdf9c72e9e42c05f96d007e33a558b5fdfd63e5ea130e99313f28efc1783e90e6bdb4e48b67a36fcc026b7b09202437ae88a1fb12
   languageName: node
   linkType: hard
 
@@ -15745,12 +15602,5 @@ __metadata:
   version: 3.22.4
   resolution: "zod@npm:3.22.4"
   checksum: 80bfd7f8039b24fddeb0718a2ec7c02aa9856e4838d6aa4864335a047b6b37a3273b191ef335bf0b2002e5c514ef261ffcda5a589fb084a48c336ffc4cdbab7f
-  languageName: node
-  linkType: hard
-
-"zod@npm:^3.22.4":
-  version: 3.24.1
-  resolution: "zod@npm:3.24.1"
-  checksum: dcd5334725b29555593c186fd6505878bb7ccb4f5954f728d2de24bf71f9397492d83bdb69d5b8a376eb500a02273ae0691b57deb1eb8718df3f64c77cc5534a
   languageName: node
   linkType: hard

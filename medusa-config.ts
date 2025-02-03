@@ -36,15 +36,26 @@ module.exports = defineConfig({
         },
       },
     },
-  ],
-  plugins: [
     {
-      resolve: "medusa-file-cloudinary",
+      resolve: "@medusajs/medusa/file",
       options: {
-        cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
-        api_key: process.env.CLOUDINARY_API_KEY,
-        api_secret: process.env.CLOUDINARY_API_SECRET,
-        secure: true,
+        providers: [
+          {
+            resolve: "@medusajs/medusa/file-s3",
+            id: "s3",
+            options: {
+              file_url: process.env.S3_FILE_URL,
+              access_key_id: process.env.S3_ACCESS_KEY_ID,
+              secret_access_key: process.env.S3_SECRET_ACCESS_KEY,
+              region: process.env.S3_REGION,
+              bucket: process.env.S3_BUCKET,
+              endpoint: process.env.S3_ENDPOINT,
+              additional_client_config: {
+                forcePathStyle: true, // Importante para que funcione con Supabase S3
+              },
+            },
+          },
+        ],
       },
     },
   ],
